@@ -35,7 +35,6 @@ const fetchAI = async (prompt) => {
         .then(res => res.json())
         .then(json => result = json.generations[0].text)
         .catch(err => console.error('error:' + err));
-        console.log(result)
         return result
 }
 export default fetchAI
