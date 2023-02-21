@@ -19,7 +19,6 @@ function App() {
     setResult(null)
     const result = await fetchAI(input);
     setResult(result);
-    console.log(result);
     setIsLoading(false);
   }
 
