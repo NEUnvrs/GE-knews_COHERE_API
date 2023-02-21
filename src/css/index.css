@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
+html {
+  background-color: rgb(30, 30, 30);
+}
+
+* {
+  margin: 0;
+  top: 0;
+  color: #ffffff;
+  font-family: "Shantell Sans", cursive;
+}/*# sourceMappingURL=index.css.map */

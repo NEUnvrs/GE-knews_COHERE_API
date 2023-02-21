@@ -1,0 +1,40 @@
+.Container {
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px 20px 0 0;
+    overflow-y: auto;
+    border-bottom: none;
+
+    p {
+        padding: 2rem;
+        line-height: 2em;
+        font-size: 20px;
+    }
+
+    .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__cursor {
+        position: relative;
+        visibility: hidden;
+        top: 0;
+    }
+}
+
+.typing-cursor-hidden {
+    display: none;
+}
+
+@media (max-width: 675px){
+    .Container{
+        p{
+            font-size: 18px;
+        }
+    }
+}
