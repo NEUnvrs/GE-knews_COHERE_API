@@ -43,7 +43,8 @@ function App() {
               "generate a description of farm product called REDF",
               "if you type more details of what you want the more precise the AI will be :)",
               "What is art as concept",
-            "Summarise Barack Obama's biography"]}
+            "Summarise Barack Obama's biography",
+          "summarise this text <text> " ]}
             eraseDelay={6000}
             cursorClassName="cursor"
             className='textarea'
